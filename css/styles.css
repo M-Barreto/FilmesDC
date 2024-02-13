@@ -1,0 +1,108 @@
+body {
+    background-image: url(/assets/justice-league.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.header {
+    background-color: #070707;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    border-bottom: solid 2px #6c6c6c;
+
+}
+
+.header img {
+    margin-left: 20px;
+    max-width: 60px;
+}
+
+.header .menu {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.header .menu li {
+    padding: 0 20px;
+}
+
+.header .menu li a {
+    color: white;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header .menu li a:hover {
+    border-bottom: solid 2px white;
+}
+
+.tela-principal .apresentacao {
+    margin-top: 0%
+
+}
+
+.tela-principal .apresentacao h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px black;
+    line-height: 1.6;
+
+}
+
+.tela-principal .apresentacao p {
+    font-family: 'Roboto', sans-serif;
+    width: 450px;
+
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 6px;
+    text-shadow: 1px 2px black;
+    line-height: 1.6;
+}
+
+main h1 {
+    animation: fromTop .7s  backwards ;
+}
+
+main p{
+    animation: fromBottom .7s backwards;
+}
+
+@keyframes fromTop {
+    from{
+        opacity: 0;
+        transform: translateY(-30px);
+       
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+        
+    }
+}
+
+@keyframes fromBottom{
+
+    from{
+           opacity: 0;
+           transform: translateY(10px);
+          
+       }
+   
+       to{
+           opacity: 1;
+           transform: translateY(0);
+           
+       }
+   }

@@ -1,0 +1,195 @@
+.wonderWoman-tela {
+    background-image: url(/assets/wonder-woman-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.wonderWoman1984-tela{
+    background-image: url(/assets/wonder-woman-1984-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.manOfSteel-tela{
+    background-image: url(../assets/man_of_steel-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.batmanSuperman-tela{
+    background-image: url(../assets/batman-v-superman-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.suicideSquad-tela{
+    background-image: url(../assets/suicide-squad-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.justiceLeague-tela{
+    background-image: url(../assets/justice-league-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.aquaman-tela{
+    background-image: url(../assets/aquaman-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.shazam-tela{
+    background-image: url(../assets/shazam-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.birdsOfPrey-tela{
+    background-image: url(../assets/birds-of-prey-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.theSuicideSquad-tela{
+    background-image: url(../assets/the-suicide-squad-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.blackAdam-tela{
+    background-image: url(../assets/black-adam-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.shazam2-tela{
+    background-image: url(../assets//shazam-2-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.theFlash-tela{
+    background-image: url(../assets/the-flash-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.blueBeetle-tela{
+    background-image: url(../assets/blue-beetle-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.aquaman2-tela{
+    background-image: url(../assets/aquaman2-tela.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+
+
+.header {
+    background-color: #070707;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    border-bottom: solid 2px #6c6c6c;
+
+}
+
+.header img {
+    margin-left: 20px;
+    max-width: 60px;
+}
+
+.header .menu {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.header .menu li {
+    padding: 0 20px;
+}
+
+.header .menu li a {
+    color: white;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header .menu li a:hover {
+    border-bottom: solid 2px white;
+}
+
+section .card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.card img {
+    max-width: 350px;
+    margin-left: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+
+.card .textos {
+    padding: 10px;
+    width: 550px;
+    height: 500px;
+    margin-right: 30px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.712)
+}
+
+.card .textos h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    color: white;
+    line-height: 1.6;
+    text-shadow: 4px 4px black;
+    letter-spacing: 0.1em;
+}
+
+.card .textos p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: white;
+    text-shadow: 2px 2px black;
+}
